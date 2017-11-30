@@ -1,0 +1,25 @@
+{
+  "name": "elira.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elira/elira.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "elira",
+    "eli",
+    "rabinovitz"
+  ],
+  "author": "Eli Rabinovitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elira/elira.github.io/issues"
+  },
+  "homepage": "https://github.com/elira/elira.github.io#readme"
+}
