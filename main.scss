@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // Customization
-
+/*
 // You can easily customize Bulma with your own variables.
 // Just uncomment the following block to see the result.
 
@@ -22,8 +22,23 @@ $family-sans-serif: "Helvetica", "Arial", sans-serif;
 // Use the new pink as the primary color
 $primary: $pink;
 $primary-invert: $pink-invert;
-
+*/
 // 4. Import the rest of Bulma
 
 @import "./node_modules/bulma/bulma";
+
+.past-project{
+    padding: 1rem;
+    
+
+    .background{
+        background: $light;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+}
+
+.past-projects {
+
+}
 //html { background-color: $green;}

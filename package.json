@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --optimize-minimize",
+    "build": "webpack --progress --colors --watch",
     "css-build": "node-sass _sass/main.scss css/main.css",
     "css-deploy": "npm run css-build && npm run css-postcss",
     "css-postcss": "postcss --use autoprefixer --output css/main.css css/main.css",
